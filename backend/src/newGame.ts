@@ -16,11 +16,8 @@ export default function newGame(db: LowSync<dbData>): Game {
         ]
     };
 
-    console.log(db.data);
-    
     db.data![currentGame.id] = currentGame;
-    console.log(db.data);
-    
+
     db.write()
 
     return currentGame;

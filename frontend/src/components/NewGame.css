@@ -1,0 +1,9 @@
+.popup-content {
+    margin: auto;
+    width: 50em;
+    padding: 5px;
+}
+
+.popup-overlay {
+    background: rgba(0, 0, 0, .5)
+}
