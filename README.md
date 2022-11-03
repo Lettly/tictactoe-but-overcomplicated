@@ -1,8 +1,9 @@
 # tictactoe-but-overcomplicated
 
 >This is a simple tictactoe game, but it's overcomplicated.
-<br>
+
 ---
+
 ## How to play
 
 To run the game, you need to have node16 and pnpm (alternative to npm) installed. Then, run `pnpm dev` to start the game.
