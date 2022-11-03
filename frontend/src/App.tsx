@@ -12,6 +12,9 @@ function App() {
     try {
       let response = await fetch("http://localhost:8000/newMove", {
         method: "POST",
+        headers: {
+          'Content-Type': 'application/json'
+        },
         body: JSON.stringify({
           gameId: gameId,
           x: x,

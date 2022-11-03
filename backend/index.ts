@@ -13,16 +13,11 @@ import getBoard from './src/getBoard.js';
 
 dotenv.config();
 
-
-const corsOption = {
-    origin: ['http://localhost:3000'],
-};
-
 const app: Express = express();
 const port = process.env.PORT ?? 8000;
 
 //setup CORS
-app.use(cors(corsOption));
+app.use(cors());
 app.use(express.json());
 
 // Initialize database
